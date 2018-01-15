@@ -244,10 +244,6 @@ class BarcodeReader {
       this.decoded = [];
     }
   }
-
 }
 
-const bcr = new BarcodeReader({decodeFormats: ['Code128']});
-console.log(bcr);
-window.bcr = bcr;
 module.exports = BarcodeReader;
